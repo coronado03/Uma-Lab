@@ -23,7 +23,7 @@ function Contact() {
               First Name
             </label>
             <input
-              className="w-full border border-gray-300 rounded px-3 py-4"
+              className="w-full border border-gray-300 rounded px-3 py-4 text-black" 
               type="text"
               placeholder="name@gmail.com"
               id="firstName"
@@ -37,7 +37,7 @@ function Contact() {
               Last Name
             </label>
             <input
-              className="w-full border border-gray-300 rounded px-3 py-4"
+              className="w-full border border-gray-300 rounded px-3 py-4 text-black"
               type="text"
               placeholder="(999) 999-999"
               id="lastName"
@@ -51,7 +51,7 @@ function Contact() {
               Email
             </label>
             <input
-              className="w-full border border-gray-300 rounded px-3 py-4"
+              className="w-full border border-gray-300 rounded px-3 py-4 text-black"
               type="email"
               placeholder="Max"
               id="email"
@@ -65,7 +65,7 @@ function Contact() {
               Message
             </label>
             <input
-              className="w-full border border-gray-300 rounded px-3 py-4"
+              className="w-full border border-gray-300 rounded px-3 py-4 text-black"
               type="email"
               id="email"
               name="email"
