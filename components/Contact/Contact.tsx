@@ -6,7 +6,7 @@ function Contact() {
     <div className="flex h-screen">
     <div className="relative w-full">
       <Image
-        src="/contact-bg.jpeg"
+        src="/contactbg.jpeg"
         alt="Contact Background"
         layout="fill"
         objectFit="cover"
