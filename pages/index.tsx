@@ -9,6 +9,7 @@ import Reasons from '@/components/Reasons/Reasons'
 import Offer from '@/components/Offer/Offer'
 import Footer from '@/components/Footer'
 import Qualities from '@/components/Qualities/Qualities'
+import Contact from '@/components/Contact/Contact'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
     <Reasons />
     <Offer />
     <Qualities />
+    <Contact />
     <Footer />
     </>
   )

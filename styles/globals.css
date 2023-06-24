@@ -34,3 +34,13 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.contact-background {
+  background-image: url('/contact-bg.jpeg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(50%);
+
+}
+
