@@ -13,7 +13,7 @@ function Solutions() {
 
     <div className="w-4/5 mx-auto min-h-screen flex flex-col gap-y-4 md:w-9/12 pb-32">
     
-    <div className="flex w-2/3 lg:odd:ml-auto">
+    <div className="flex w-full md:w-2/3 lg:odd:ml-auto my-20 md:my-0">
         <h2 className="text-[11.5rem] font-bold text-[#3C45EE] mt-[-100px]">1</h2>
         <div className='flex flex-col'>
                   <h2 className='font-semibold mb-[-25px]'>Розробка найменування компанії та слогану</h2>
@@ -21,42 +21,42 @@ function Solutions() {
         </div>
     </div>
   
-    <div className="flex w-2/3 lg:odd:ml-auto">
+    <div className="flex w-full md:w-2/3lg:odd:ml-auto mb-10 md:my-0">
         <h2 className="text-[11.5rem] font-bold text-[#3C45EE] mt-[-100px]">2</h2>
         <div className='flex flex-col'>
                   <h2 className='font-semibold mb-[-25px]'>Розробка найменування компанії та слогану</h2>
                   <p className="mt-8">Ми пропонує творчий та стратегічний підхід до створення ідеального імя для вашого бізнесу, а також запам ятовуваного слогану, що відображає його цілі та цінності. Наші експерти враховують вашу унікальність, цільову аудиторію та конкурентне середовище, щоб створити найменування та слоган, що привернуть увагу та сприятимуть будівництву сильного бренду.</p>
         </div>    </div>
   
-    <div className="flex w-2/3 lg:odd:ml-auto">
+    <div className="flex w-full md:w-2/3 lg:odd:ml-auto my-10 md:my-0">
         <h2 className="text-[11.5rem] font-bold text-[#3C45EE] mt-[-100px]">3</h2>
         <div className='flex flex-col'>
                   <h2 className='font-semibold mb-[-25px]'>Розробка найменування компанії та слогану</h2>
                   <p className="mt-8">Ми пропонує творчий та стратегічний підхід до створення ідеального імя для вашого бізнесу, а також запам ятовуваного слогану, що відображає його цілі та цінності. Наші експерти враховують вашу унікальність, цільову аудиторію та конкурентне середовище, щоб створити найменування та слоган, що привернуть увагу та сприятимуть будівництву сильного бренду.</p>
         </div>    </div>
   
-    <div className="flex w-2/3 lg:odd:ml-auto">
+    <div className="flex w-full md:w-2/3 lg:odd:ml-auto my-10 md:my-0">
         <h2 className="text-[11.5rem] font-bold text-[#3C45EE] mt-[-100px]">4</h2>
         <div className='flex flex-col'>
                   <h2 className='font-semibold mb-[-25px]'>Розробка найменування компанії та слогану</h2>
                   <p className="mt-8">Ми пропонує творчий та стратегічний підхід до створення ідеального імя для вашого бізнесу, а також запам ятовуваного слогану, що відображає його цілі та цінності. Наші експерти враховують вашу унікальність, цільову аудиторію та конкурентне середовище, щоб створити найменування та слоган, що привернуть увагу та сприятимуть будівництву сильного бренду.</p>
         </div>    </div>
   
-    <div className="flex w-2/3 lg:odd:ml-auto">
+    <div className="flex w-full md:w-2/3 lg:odd:ml-auto my-10 md:my-0">
         <h2 className="text-[11.5rem] font-bold text-[#3C45EE] mt-[-100px]">5</h2>
         <div className='flex flex-col'>
                   <h2 className='font-semibold mb-[-25px]'>Розробка найменування компанії та слогану</h2>
                   <p className="mt-8">Ми пропонує творчий та стратегічний підхід до створення ідеального імя для вашого бізнесу, а також запам ятовуваного слогану, що відображає його цілі та цінності. Наші експерти враховують вашу унікальність, цільову аудиторію та конкурентне середовище, щоб створити найменування та слоган, що привернуть увагу та сприятимуть будівництву сильного бренду.</p>
         </div>    </div>
   
-    <div className="flex w-2/3 lg:odd:ml-auto">
+    <div className="flex w-full md:w-2/3 lg:odd:ml-auto my-10 md:my-0">
         <h2 className="text-[11.5rem] font-bold text-[#3C45EE] mt-[-100px]">6</h2>
         <div className='flex flex-col'>
                   <h2 className='font-semibold mb-[-25px]'>Розробка найменування компанії та слогану</h2>
                   <p className="mt-8">Ми пропонує творчий та стратегічний підхід до створення ідеального імя для вашого бізнесу, а також запам ятовуваного слогану, що відображає його цілі та цінності. Наші експерти враховують вашу унікальність, цільову аудиторію та конкурентне середовище, щоб створити найменування та слоган, що привернуть увагу та сприятимуть будівництву сильного бренду.</p>
         </div>  </div>
   
-    <div className="flex w-2/3 lg:odd:ml-auto">
+    <div className="flex w-full md:w-2/3 lg:odd:ml-auto my-10 md:my-0">
         <h2 className="text-[11.5rem] font-bold text-[#3C45EE] mt-[-100px]">7</h2>
         <div className='flex flex-col'>
                   <h2 className='font-semibold mb-[-25px]'>Розробка найменування компанії та слогану</h2>
