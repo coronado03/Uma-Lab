@@ -6,7 +6,7 @@ type Props = {
 
 function OfferGrid({ children }: Props) {
   return (
-    <div className="flex flex-col gap-y-14 text-black text-xl">
+    <div className="flex flex-col gap-y-14 text-black text-xl py-6">
       {children}
     </div>
   );
