@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 function Contact() {
   return (
-    <div className="flex h-screen">
+    <div className="flex">
       <div className="flex flex-col lg:flex-row lg:gap-x-48 mx-auto text-white w-11/12 z-2 py-10">
         <h1 className="text-6xl font-semibold text-center self-center">Заявка на послугу</h1>
 
