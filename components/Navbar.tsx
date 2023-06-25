@@ -6,14 +6,13 @@ function Navbar() {
   const [navbar, setNavbar] = useState(false);
   return (
     <div>
-      <nav className="w-full bg-black lg:bg-transparent fixed top-0 left-0 right-0 z-10">
-        <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+      <nav className="w-full bg-neutral-700	fixed top-0 left-0 right-0 z-10">
+        <div className="justify-between px-6 mx-auto md:items-center md:flex">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               {/* LOGO */}
               <Link href="/">
-                <h2 className="text-2xl text-white">UMA-LAB</h2>
-              </Link>
+              <Image src="/umalogo.png" className="" width={35} height={30} alt="logo" />              </Link>
               {/* HAMBURGER BUTTON FOR MOBILE */}
               <div className="md:hidden">
                 <button
@@ -42,24 +41,32 @@ function Navbar() {
               }`}
             >
               <ul className="h-screen md:h-auto items-center justify-center md:flex ">
-                <li className="pb-6 text-lg	 text-white py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-purple-900  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
+                <li className="pb-2 text-base	 text-white py-2 md:px-2 text-center border-b-2 md:border-b-0  hover:bg-sky-900  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
                   <Link href="#about" onClick={() => setNavbar(!navbar)}>
-                  Возможности
+                  <p className=''>Контакти </p>
                   </Link>
                 </li>
-                <li className="pb-6 text-base text-white py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-purple-600  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
-                  <Link href="#blog" onClick={() => setNavbar(!navbar)}>
-                  Цены
-                  </Link>
-                </li>
-                <li className="pb-6 text-base font-semibold	 text-black py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-purple-600  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
-                    <button className='bg-white py-2 px-7 rounded-full'>
-                        <Link href="#projects" onClick={() => setNavbar(!navbar)}>
-                        Контакты
-                        </Link>
-                    </button>
 
+                <li className='pb-2 text-base text-white py-2 text-center  border-b-2 md:border-b-0  hover:bg-purple-600  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent'>
+                 <p className='text-sky-500'>|</p>
                 </li>
+
+                <li className="pb-2 text-base text-white py-2 px-2 text-center  border-b-2 md:border-b-0  hover:bg-purple-600  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
+                  <Link href="#blog" onClick={() => setNavbar(!navbar)}>
+                  <p className='flex flex-row'>Клієнти</p>
+                  </Link>
+                </li>
+
+                <li className='pb-2 text-base text-white py-2 text-center  border-b-2 md:border-b-0  hover:bg-purple-600  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent'>
+                 <p className='text-sky-500'>|</p>
+                </li>
+
+                <li className="pb-2 text-base text-white py-2 px-2 text-center border-b-2 md:border-b-0  hover:bg-purple-600  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
+                        <Link href="#projects" onClick={() => setNavbar(!navbar)}>
+                        <p className='flex flex-row'>Контакти</p>
+                        </Link>
+                </li>
+                
               </ul>
             </div>
           </div>

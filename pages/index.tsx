@@ -6,10 +6,10 @@ import Help from '@/components/Help/Help'
 import Problems from '@/components/Problems/Problems'
 import Solutions from '@/components/Solutions/Solutions'
 import Reasons from '@/components/Reasons/Reasons'
-import Offer from '@/components/Offer/Offer'
 import Footer from '@/components/Footer'
 import Qualities from '@/components/Qualities/Qualities'
 import Contact from '@/components/Contact/Contact'
+import Offer from '@/components/Offer/Offer'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -17,12 +17,8 @@ export default function Home() {
     <>
     <Navbar />
     <Hero />
-    <Help />
-    <Problems />
-    <Solutions />
-    <Reasons />
     <Offer />
-    <Qualities />
+    <Reasons />
     <Contact />
     <Footer />
     </>

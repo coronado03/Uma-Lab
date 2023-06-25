@@ -2,30 +2,18 @@ import Image from 'next/image';
 
 function Contact() {
   return (
-
     <div className="flex h-screen">
-    <div className="relative w-full">
-      <Image
-        src="/contactbg.jpeg"
-        alt="Contact Background"
-        layout="fill"
-        objectFit="cover"
-        className="brightness-50"
-      />
-      <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
-      <div className="mx-auto text-white w-11/12 lg:w-2/5 relative z-10 py-10">
-        <h1 className="text-4xl font-semibold text-center">Заявка на послугу</h1>
-        <p className="text-center my-10">Контакти</p>
+      <div className="flex flex-col lg:flex-row lg:gap-x-48 mx-auto text-white w-11/12 z-2 py-10">
+        <h1 className="text-6xl font-semibold text-center self-center">Заявка на послугу</h1>
 
-        <form>
+        <form className="w-full self-center">
           <div className="mt-4">
-            <label className="block mb-2" htmlFor="firstName">
-              First Name
+            <label className="mb-6 flex flex-row" htmlFor="firstName">
+              <p className='text-sky-500'>*</p> First Name
             </label>
             <input
-              className="w-full border border-gray-300 rounded px-3 py-4 text-black" 
+              className="w-full border-b border-gray-300 border-opacity-50 px-3 py-2 bg-transparent text-white focus:focus:outline-none focus:border-white"
               type="text"
-              placeholder="name@gmail.com"
               id="firstName"
               name="firstName"
               required
@@ -33,13 +21,12 @@ function Contact() {
           </div>
 
           <div className="mt-4">
-            <label className="block mb-2" htmlFor="lastName">
-              Last Name
+            <label className="mb-6 flex flex-row" htmlFor="lastName">
+              <p className='text-sky-500'>*</p>Last Name
             </label>
             <input
-              className="w-full border border-gray-300 rounded px-3 py-4 text-black"
+              className="w-full border-b border-gray-300 border-opacity-50 px-3 py-2 bg-transparent text-white focus:focus:outline-none focus:border-white"
               type="text"
-              placeholder="(999) 999-999"
               id="lastName"
               name="lastName"
               required
@@ -47,13 +34,12 @@ function Contact() {
           </div>
 
           <div className="mt-4">
-            <label className="block mb-2" htmlFor="email">
-              Email
+            <label className="mb-6 flex flex-row" htmlFor="email">
+              <p className='text-sky-500'>*</p> Email
             </label>
             <input
-              className="w-full border border-gray-300 rounded px-3 py-4 text-black"
+              className="w-full border-b border-gray-300 border-opacity-50 px-3 py-2 bg-transparent text-white focus:focus:outline-none focus:border-white"
               type="email"
-              placeholder="Max"
               id="email"
               name="email"
               required
@@ -61,11 +47,11 @@ function Contact() {
           </div>
 
           <div className="mt-4">
-            <label className="block mb-2" htmlFor="message">
-              Message
+            <label className="mb-6 flex flex-row" htmlFor="message">
+              <p className='text-sky-500'>*</p> Message
             </label>
             <input
-              className="w-full border border-gray-300 rounded px-3 py-4 text-black"
+              className="w-full border-b border-gray-300 border-opacity-50 px-3 py-2 bg-transparent text-white focus:focus:outline-none focus:border-white"
               type="email"
               id="email"
               name="email"
@@ -73,14 +59,16 @@ function Contact() {
             />
           </div>
 
+          <div className='w-full flex justify-end'>
           <button
-            type="submit"
-            className="w-full bg-[#FF7300] text-white font-semibold py-5 mt-4 rounded-lg"
-          >
-            Подати заявку
+              type="submit"
+              className="w-2/6 	bg-sky-500 text-white font-semibold py-4 mt-4 rounded-lg"
+            >
+              Подати заявку
           </button>
+          </div>
+
         </form>
-      </div>
       </div>
     </div>
   );
