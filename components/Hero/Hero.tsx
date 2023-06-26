@@ -3,7 +3,7 @@ import Typewriter from 'typewriter-effect';
 
 function Hero() {
   return (
-    <div className="bg-black justify-center flex flex-col gap-y-24 mt-16 pb-52 md:gap-y-32">
+    <div className="bg-black justify-center items-center flex flex-col gap-y-24 mt-44 md:mt-16 pb-52 md:gap-y-32">
       <div className="flex flex-col gap-y-5 text-center mt-9">
         <Image src="/umalogo.png" className="mx-auto" width={165} height={500} alt="logo" />
         <h1 className="text-4xl md:text-8xl font-bold">UMA - LAB</h1>

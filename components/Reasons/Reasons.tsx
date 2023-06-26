@@ -6,7 +6,7 @@ import ReasonsGrid from './ReasonsGrid';
 function Reasons() {
   
   return (
-    <div className='flex flex-col gap-y-8 bg-black text-white'>
+    <div className='flex flex-col gap-y-8 bg-black text-white mt-32'>
         <h1 className='text-center font-semibold text-4xl py-10'>Причини працювати з UMA-LAB</h1>
 
         <ReasonsGrid>        
