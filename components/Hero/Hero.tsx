@@ -2,6 +2,9 @@ import Image from 'next/image';
 import Typewriter from 'typewriter-effect';
 
 function Hero() {
+
+  
+  
   return (
     <div className="bg-black justify-center items-center flex flex-col gap-y-24 mt-44 md:mt-16 pb-52 md:gap-y-32">
       <div className="flex flex-col gap-y-5 text-center mt-9">

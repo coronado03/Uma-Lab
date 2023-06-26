@@ -9,7 +9,7 @@ function Contact() {
         <form className="w-full self-center">
           <div className="mt-4">
             <label className="mb-6 flex flex-row" htmlFor="firstName">
-              <p className='text-sky-500'>*</p> First Name
+              <p className='text-sky-500'>*</p> ВАШЕ іМʼЯ
             </label>
             <input
               className="w-full border-b border-gray-300 border-opacity-50 px-3 py-2 bg-transparent text-white focus:focus:outline-none focus:border-white"
@@ -22,7 +22,7 @@ function Contact() {
 
           <div className="mt-4">
             <label className="mb-6 flex flex-row" htmlFor="lastName">
-              <p className='text-sky-500'>*</p>Last Name
+              <p className='text-sky-500'>*</p>Ваш телефону
             </label>
             <input
               className="w-full border-b border-gray-300 border-opacity-50 px-3 py-2 bg-transparent text-white focus:focus:outline-none focus:border-white"
@@ -35,7 +35,7 @@ function Contact() {
 
           <div className="mt-4">
             <label className="mb-6 flex flex-row" htmlFor="email">
-              <p className='text-sky-500'>*</p> Email
+              <p className='text-sky-500'>*</p>Ваш e-mail
             </label>
             <input
               className="w-full border-b border-gray-300 border-opacity-50 px-3 py-2 bg-transparent text-white focus:focus:outline-none focus:border-white"
@@ -48,7 +48,7 @@ function Contact() {
 
           <div className="mt-4">
             <label className="mb-6 flex flex-row" htmlFor="message">
-              <p className='text-sky-500'>*</p> Message
+              <p className='text-sky-500'>*</p>Ваш коментар 
             </label>
             <input
               className="w-full border-b border-gray-300 border-opacity-50 px-3 py-2 bg-transparent text-white focus:focus:outline-none focus:border-white"
