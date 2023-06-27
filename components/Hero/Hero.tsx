@@ -16,9 +16,12 @@ function Hero() {
         <div className="flex flex-col justify-center items-center h-[194px]">
           <p className="text-center w-11/12 md:w-9/12 lg:w-8/12 text-lg md:text-xl lg:line-clamp-3" >
                        <Typewriter
-                        
+                        options={{
+                          cursor: '█',
+                          autoStart: true,
+                        }}
                         onInit={(typewriter) => {
-                            typewriter  
+                            typewriter 
                                 .changeDelay(6)
                                 .typeString("Діджитал-агентство. Інструменти розвитку вашого бізнесу, будь-якого масштабу.Створюємо продукт з найкращими технологіями та світовими принципами дизайну. Контент-мейкери, дизайнери, оптимізатори, розробники — це все UMA.")
                                 .start();
