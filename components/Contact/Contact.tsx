@@ -4,12 +4,12 @@ function Contact() {
   return (
     <div className="flex">
       <div className="flex flex-col lg:flex-row lg:gap-x-48 mx-auto text-white w-11/12 z-2 py-10">
-        <h1 className="text-6xl font-semibold text-center self-center">Заявка на послугу</h1>
+        <h1 className="text-7xl font-semibold text-center self-center w-full mb-5 lg:mb-0">Заявка на послугу</h1>
 
         <form className="w-full self-center">
-          <div className="mt-4">
-            <label className="mb-6 flex flex-row" htmlFor="firstName">
-              <p className='text-sky-500'>*</p> ВАШЕ іМʼЯ
+          <div className="mt-4 group  ">
+            <label className="mb-6 flex flex-row text-gray-400 group-hover:text-white" htmlFor="firstName">
+              <p className='text-sky-500'>*</p> Ваше ім`я
             </label>
             <input
               className="w-full border-b border-gray-300 border-opacity-50 px-3 py-2 bg-transparent text-white focus:focus:outline-none focus:border-white"
@@ -20,9 +20,9 @@ function Contact() {
             />
           </div>
 
-          <div className="mt-4">
-            <label className="mb-6 flex flex-row" htmlFor="lastName">
-              <p className='text-sky-500'>*</p>Ваш телефону
+          <div className="mt-4 group">
+            <label className="mb-6 flex flex-row text-gray-400 group-hover:text-white" htmlFor="lastName">
+              <p className='text-sky-500'>*</p>Ваш телефон
             </label>
             <input
               className="w-full border-b border-gray-300 border-opacity-50 px-3 py-2 bg-transparent text-white focus:focus:outline-none focus:border-white"
@@ -33,8 +33,8 @@ function Contact() {
             />
           </div>
 
-          <div className="mt-4">
-            <label className="mb-6 flex flex-row" htmlFor="email">
+          <div className="mt-4 group">
+            <label className="mb-6 flex flex-row text-gray-400 group-hover:text-white" htmlFor="email">
               <p className='text-sky-500'>*</p>Ваш e-mail
             </label>
             <input
@@ -46,12 +46,12 @@ function Contact() {
             />
           </div>
 
-          <div className="mt-4">
-            <label className="mb-6 flex flex-row" htmlFor="message">
+          <div className="mt-4 group">
+            <label className="mb-6 flex flex-row text-gray-400 group-hover:text-white" htmlFor="message">
               <p className='text-sky-500'>*</p>Ваш коментар 
             </label>
             <input
-              className="w-full border-b border-gray-300 border-opacity-50 px-3 py-2 bg-transparent text-white focus:focus:outline-none focus:border-white"
+              className="peer w-full border-b border-gray-300 border-opacity-50 px-3 py-2 bg-transparent text-white focus:focus:outline-none focus:border-white"
               type="email"
               id="email"
               name="email"
@@ -59,13 +59,17 @@ function Contact() {
             />
           </div>
 
-          <div className='w-full flex justify-end'>
-          <button
-              type="submit"
-              className="w-2/6 	bg-sky-500 text-white font-semibold py-4 mt-4 rounded-lg"
-            >
-              Подати заявку
-          </button>
+          <div className='w-full flex flex-col lg:flex-row justify-end text-white mt-4 gap-y-8'>
+            <p className='line-clamp-3 w-full lg:w-72 text-center lg:text-left'>
+              Подайте заявку, щоб отримати оптимальне рішення для Вашого бізнесу.
+            
+            </p>
+            <button
+                type="submit"
+                className=" w-full lg:w-3/6 text-xl py-4 bg-sky-500 hover:bg-sky-900 transition-all duration-100 ease-in-out font-semibold lg:py-2  rounded-lg"
+              >
+                Подати заявку
+            </button>
           </div>
 
         </form>
