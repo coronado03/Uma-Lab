@@ -39,7 +39,7 @@ function Reasons() {
         <motion.div 
         initial={{opacity:0}}
         animate={inView ? {opacity:1} : {opacity:0}}
-        transition={{ duration: 4 }} 
+        transition={{ duration: 2 }} 
         className='flex flex-col gap-y-2 items-center text-center'>
             <Image
             src="/Reasons/2.png"
@@ -55,7 +55,7 @@ function Reasons() {
         <motion.div 
         initial={{opacity:0}}
         animate={inView ? {opacity:1} : {opacity:0}}
-        transition={{ duration: 6 }}
+        transition={{ duration: 2 }}
         className='flex flex-col gap-y-2 items-center text-center'>
             <Image
             src="/Reasons/3.png"
@@ -85,7 +85,7 @@ function Reasons() {
         <motion.div 
         initial={{opacity:0}}
         animate={inView2 ? {opacity:1} : {opacity:0}}
-        transition={{ duration: 4 }}
+        transition={{ duration: 2 }}
         className='flex flex-col gap-y-2 items-center text-center'>
             <Image
             src="/Reasons/5.png"
@@ -100,7 +100,7 @@ function Reasons() {
         <motion.div 
         initial={{opacity:0}}
         animate={inView2 ? {opacity:1} : {opacity:0}}
-        transition={{ duration: 6 }} 
+        transition={{ duration: 2 }} 
         className='flex flex-col gap-y-2 items-center text-center'>
             <Image
             src="/Reasons/6.png"

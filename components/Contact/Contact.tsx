@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div className="flex">
       <div className="flex flex-col lg:flex-row lg:gap-x-48 mx-auto text-white w-11/12 z-2 py-10">
-        <h1 className="text-7xl font-semibold text-center self-center w-full mb-5 lg:mb-0">Заявка на послугу</h1>
+        <h1 className="text-7xl font-semibold text-center self-center w-full mb-5 lg:mb-0 lg:pl-20">{'Зв\`яжіться з нами'}</h1>
 
         <form className="w-full self-center">
           <div className="mt-4 group  ">
