@@ -10,6 +10,7 @@ import Footer from '@/components/Footer'
 import Qualities from '@/components/Qualities/Qualities'
 import Contact from '@/components/Contact/Contact'
 import Offer from '@/components/Offer/Offer'
+import ChatBubble from '@/components/ChatBubble/ChatBubble'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
     <Reasons />
     <Contact />
     <Footer />
+    <ChatBubble />
     </>
   )
 }
