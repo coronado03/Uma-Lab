@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('/fonts/AvenirNextLTPro-Regular.otf');
-
-
-
-
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -51,3 +46,6 @@ body {
 }
 
 
+.text-stroke {
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}

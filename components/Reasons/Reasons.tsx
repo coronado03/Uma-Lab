@@ -7,15 +7,15 @@ import { useInView, motion } from "framer-motion"
 
 function Reasons() {
     const ref = useRef(null);
-    const inView = useInView(ref);
+    const inView = useInView(ref, { once: true });
     const ref2 = useRef(null);
-    const inView2 = useInView(ref2)
+    const inView2 = useInView(ref2, { once: true })
 
 
 
   return (
     <div className='flex flex-col gap-y-8 bg-black text-white mt-32'>
-        <h1 className='text-center font-semibold text-4xl py-10'>Цифровий успіх з UMA</h1>
+        <h1 className='text-center font-bold text-5xl py-10'>Цифровий успіх з UMA</h1>
 
         <ReasonsGrid>        
         
@@ -30,7 +30,9 @@ function Reasons() {
             height={200}
             alt="logo"
             className="rounded-full mb-[-70px]"/>
-            <h3 className='font-semibold text-lg'>Покращення вашої присутності онлайн</h3>
+            <div className='xl:line-clamp-2 lg:w-3/4'>            
+                <h3 className='font-semibold text-lg'>Покращення вашої присутності онлайн</h3>
+            </div>
             <p 
             ref={ref}
             className='text-base text-gray-400'>За допомогою професійного веб-дизайну та соціальних медіа, ми покращуємо вашу онлайн-присутність і залучаємо більше клієнтів</p>
@@ -42,12 +44,14 @@ function Reasons() {
         transition={{ duration: 2 }} 
         className='flex flex-col gap-y-2 items-center text-center'>
             <Image
-            src="/Reasons/2.png"
+            src="/Reasons/6.png"
             width={200}
             height={200}
             alt="logo"
             className="rounded-full  mb-[-70px]"/>
-            <h3 className='font-semibold text-lg'>Адміністрування сайту та соціальних мереж</h3>
+            <div className='xl:line-clamp-2 lg:w-3/4'>
+                <h3 className='font-semibold text-lg'>Адміністрування сайту та соціальних мереж</h3>
+            </div>
             <p className='text-base text-gray-400'>Забезпечення безперебійної роботи веб-сайту та активної присутності в соціальних медіа для ефективної комунікації та залучення клієнтів</p>
         </motion.div>
 
@@ -63,7 +67,9 @@ function Reasons() {
             height={200}
             alt="logo"
             className="rounded-full mb-[-70px]"/>
-            <h3 className='font-semibold text-lg'>Підвищення свідомості про бренд</h3>
+            <div className='xl:line-clamp-2 lg:w-3/4'>
+                <h3 className='font-semibold text-lg'>Підвищення свідомості про бренд</h3>
+            </div>
             <p className='text-base text-gray-400'>Креативний контент та стратегії брендингу, що привертають увагу, збільшують свідомість про ваш бренд</p>
         </motion.div>
 
@@ -73,7 +79,7 @@ function Reasons() {
         transition={{ duration: 2 }}
         className='flex flex-col gap-y-2 items-center text-center'>
             <Image
-            src="/Reasons/4.png"
+            src="/Reasons/2.png"
             width={200}
             height={200}
             alt="logo"
@@ -103,7 +109,7 @@ function Reasons() {
         transition={{ duration: 2 }} 
         className='flex flex-col gap-y-2 items-center text-center'>
             <Image
-            src="/Reasons/6.png"
+            src="/Reasons/4.png"
             width={200}
             height={200}
             alt="logo"

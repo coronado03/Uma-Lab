@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div className='flex bg-black justify-center flex-col lg:flex-row lg:gap-x-48 mx-auto text-white w-11/12 z-2 mt-28 mb-10' id="footer"> 
       
-      <h1 className="text-6xl font-semibold text-center self-center">наші контакти</h1>
+      <h1 className="text-4xl md:text-6xl font-semibold text-start self-center text-black text-stroke text-stroke">наші контакти</h1>
 
       <div className='self-center flex flex-row gap-y-40 text-center md:text-left'>
 
@@ -16,7 +16,7 @@ function Footer() {
             <p>info@uma-lub.com</p>
           </div>
 
-          <div className='flex gap-x-2 justify-end md:justify-normal'>
+          <div className='flex gap-x-2 justify-end md:justify-normal items-center'>
             <Link target="_blank"
             href="https://www.facebook.com/profile.php?id=100093691271416">
               <Image
@@ -24,7 +24,7 @@ function Footer() {
               width={30}
               height={30}
               alt="logo"
-              className="invert"
+              className="invert just"
               />
             </Link>
 

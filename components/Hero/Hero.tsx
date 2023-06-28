@@ -18,7 +18,7 @@ function Hero() {
                        <Typewriter
                         options={{
                           cursor: '█',
-                          autoStart: true,
+                          autoStart: true
                         }}
                         onInit={(typewriter) => {
                             typewriter 

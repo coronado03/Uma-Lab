@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div className="flex">
       <div className="flex flex-col lg:flex-row lg:gap-x-48 mx-auto text-white w-11/12 z-2 py-10">
-        <h1 className="text-7xl font-semibold text-center self-center w-full mb-5 lg:mb-0 lg:pl-20">{'Зв\`яжіться з нами'}</h1>
+        <h1 className="text-4xl md:text-7xl font-bold text-center self-center w-full mb-5 lg:mb-0 lg:pl-20">{'Зв’яжіться з нами зараз'}</h1>
 
         <form className="w-full self-center">
           <div className="mt-4 group  ">
@@ -59,9 +59,9 @@ function Contact() {
             />
           </div>
 
-          <div className='w-full flex flex-col lg:flex-row justify-end text-white mt-4 gap-y-8'>
-            <p className='line-clamp-3 w-full lg:w-72 text-center lg:text-left'>
-              Подайте заявку, щоб отримати оптимальне рішення для Вашого бізнесу.
+          <div className='w-full flex flex-col lg:flex-row justify-end text-white mt-4 gap-y-8 lg:gap-x-10'>
+            <p className='line-clamp-3 w-full lg:w-72 text-center lg:text-right'>
+            Подайте заявку, щоб ми допомогли Вам отримати максимум від Вашого бізнесу
             
             </p>
             <button
