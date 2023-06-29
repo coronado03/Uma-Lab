@@ -29,7 +29,7 @@ const ReasonsCarousel = ({ items }: any) => {
               } absolute transition-opacity duration-500 ${
                 index === currentItem ? 'translate-x-0' : 'translate-x-full'
               }`}
-              initial={{ opacity: 1 }}
+              initial={{ opacity: 0 }}
               animate={{
                 opacity: index === currentItem ? 1 : 0,
               }}
