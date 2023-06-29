@@ -6,7 +6,9 @@ function Footer() {
   return (
     <div className='flex bg-black justify-center flex-col lg:flex-row lg:gap-x-48 mx-auto text-white w-11/12 z-2 mt-28 mb-10' id="footer"> 
       
-      <h1 className="text-4xl md:text-6xl font-semibold text-start self-center text-black text-stroke text-stroke">наші контакти</h1>
+      <div className='lg:w-1/2'>
+        <h1 className="text-4xl md:text-6xl font-semibold text-center lg:text-start self-center text-black text-stroke text-stroke lg:ml-5">наші контакти</h1>
+      </div>
 
       <div className='self-center flex flex-row gap-y-40 text-center md:text-left'>
 
