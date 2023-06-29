@@ -12,9 +12,9 @@ function Hero() {
         <h1 className="text-4xl md:text-8xl font-bold">UMA - LAB</h1>
       </div>
 
-      <div className="md:mx-auto lg:w-10/12">
+      <div className="md:mx-auto lg:w-10/12 xl:w-[77.79%]">
         <div className="flex flex-col justify-center items-center h-[194px] lg:self-center">
-          <p className="text-start w-11/12 md:w-9/12 lg:w-8/12 text-lg md:text-xl" >
+          <p className="text-center md:text-start w-11/12 md:w-9/12 lg:w-8/12 text-lg md:text-xl" >
                        <Typewriter
                         options={{
                           cursor: '█',
