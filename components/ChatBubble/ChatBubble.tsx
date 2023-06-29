@@ -20,7 +20,7 @@ function ChatBubble() {
     }
   };
   return (
-    <div className='flex flex-col gap-y-5 items-center fixed bottom-16 left-[85%] lg:left-[92%] w-16'>
+    <div className='flex flex-col gap-y-5 items-center fixed bottom-16 left-[75%] sm:left-[85%] lg:left-[92%] w-16'>
       {showBubbles && (
         <>
           <motion.div

@@ -18,21 +18,20 @@ const ReasonsCarousel = ({ items }: any) => {
     };
 
   return (
-    <div className="py-28 mx-auto w-11/12 pb-48 md:hidden">
+    <div className="py-28 mx-auto pb-48 md:hidden w-full">
       <div className="relative">
-        <div className="flex overflow-hidden h-64 items-center justify-center">
+        <div className="flex overflow-hidden h-96 items-center justify-center">
           {items.map((item: any, index: number) => (
             <motion.div
               key={index}
               className={`w-full flex flex-col ${
-                index === currentItem ? 'opacity-100' : 'opacity-0'
+                index === currentItem ? 'opacity-100' : 'opacity-0 hidden'
               } absolute transition-opacity duration-500 ${
                 index === currentItem ? 'translate-x-0' : 'translate-x-full'
               }`}
               initial={{ opacity: 0 }}
               animate={{
                 opacity: index === currentItem ? 1 : 0,
-                x: index === currentItem ? 0 : '100%',
               }}
               transition={{ duration: 0.5 }}
             >
@@ -53,7 +52,7 @@ const ReasonsCarousel = ({ items }: any) => {
         >
             <Image
             src="/Reasons/arrow.png"
-            width={50}
+            width={25}
             height={200}
             alt="logo"
             className="rotate-180 rounded-full invert mb-[-70px]"/>
@@ -64,7 +63,7 @@ const ReasonsCarousel = ({ items }: any) => {
         >
             <Image
             src="/Reasons/arrow.png"
-            width={50}
+            width={25}
             height={200}
             alt="logo"
             className="rounded-full invert mb-[-70px]"/>
