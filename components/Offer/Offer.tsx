@@ -29,7 +29,7 @@ function Offer() {
   return (
     <div className='flex flex-col lg:flex-row lg:gap-x-4 bg-black text-white px-4 md:px-10 lg:px-20' id="offer">
         
-        <div className='lg:w-1/2 relative'>
+        <div className='lg:w-1/2 relative mb-12 text-center lg:mb-0 lg:text-start '>
             <div className='lg:sticky top-16 lg:mt-[-50px]'>
                 <h1 className='font-bold text-5xl'>Послуги</h1>
 
