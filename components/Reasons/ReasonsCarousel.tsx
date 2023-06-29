@@ -33,6 +33,7 @@ const ReasonsCarousel = ({ items }: any) => {
               animate={{
                 opacity: index === currentItem ? 1 : 0,
               }}
+              transition={{ duration: 0.1 }}
             >
               {/* Display your item content here */}
               <img src={item.imageUrl} alt={item.title} className="mx-auto" />
