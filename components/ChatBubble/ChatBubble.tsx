@@ -47,7 +47,7 @@ function ChatBubble() {
             className='text-white bg-sky-600 hover:bg-sky-700 rounded-full p-4'
           >
             <Image
-              src="/ChatBubble/1.png"
+              src="/ChatBubble/2.png"
               width={35}
               height={50}
               alt="logo"
