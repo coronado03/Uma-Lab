@@ -3,7 +3,7 @@ import Image from 'next/image';
 function Contact() {
   return (
     <div className="flex">
-      <div className="flex flex-col lg:flex-row lg:gap-x-48 mx-auto text-white w-11/12 z-2 py-10">
+      <div className="flex flex-col lg:flex-row lg:gap-x-48 mx-auto text-white w-11/12 z-2 py-10 mb-20">
         <h1 className="text-4xl md:text-7xl font-bold text-center self-center w-full mb-5 lg:mb-0 lg:pl-20">{'Зв’яжіться з нами зараз'}</h1>
 
         <form className="w-full self-center">
