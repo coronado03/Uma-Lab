@@ -1,6 +1,8 @@
 import Image from 'next/image';
+
 import Link from 'next/link';
 import { useState } from 'react';
+
 import { motion } from 'framer-motion';
 
 const ReasonsCarousel = ({ items }: any) => {
@@ -24,14 +26,13 @@ const ReasonsCarousel = ({ items }: any) => {
               className={`w-full flex flex-col ${
                 index === currentItem ? 'opacity-100' : 'opacity-0 hidden'
               } absolute transition-opacity duration-500 ${
-                index === currentItem ? 'translate-x-0' : index < currentItem ? 'translate-x-[100%]' : 'translate-x-[-100%]'
+                index === currentItem ? 'translate-x-0' : index < currentItem ? 'translate-x-[-100%]' : 'translate-x-[100%]'
               }`}
               initial={{ opacity: 1 }}
               animate={{
                 opacity: index === currentItem ? 1 : 0,
-                x: index === currentItem ? 0 : index > currentItem ? '100%' : '-100%'
               }}
-              transition={{ duration: 0.5 }}
+              transition={{ duration: 0.1 }}
             >
               {/* Display your item content here */}
               <img src={item.imageUrl} alt={item.title} className="mx-auto" />
