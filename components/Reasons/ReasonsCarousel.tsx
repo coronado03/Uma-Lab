@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 import { motion } from 'framer-motion';
+import CarouselCircles from './CarouselCircles';
 
 const ReasonsCarousel = ({ items }: any) => {
   const [currentItem, setCurrentItem] = useState(0);
@@ -32,7 +33,7 @@ const ReasonsCarousel = ({ items }: any) => {
               animate={{
                 opacity: index === currentItem ? 1 : 0,
               }}
-              transition={{ duration: 0.1 }}
+              transition={{ duration: 0.5 }}
             >
               {/* Display your item content here */}
               <img src={item.imageUrl} alt={item.title} className="mx-auto" />
@@ -41,9 +42,14 @@ const ReasonsCarousel = ({ items }: any) => {
                 <h2 className="text-center">{item.title}</h2>
                 <p className="text-base text-gray-400 text-center">{item.paragraph}</p>
               </div>
+
             </motion.div>
+            
           ))}
+          
         </div>
+        <CarouselCircles count={items.length} currentItem={currentItem} />
+
         <button
           className="absolute top-1/2 transform -translate-y-1/2 left-4 p-2 bg-black bg-opacity-50 text-white border-none cursor-pointer"
           onClick={prevItem}
