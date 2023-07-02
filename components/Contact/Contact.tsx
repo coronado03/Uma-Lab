@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 function Contact() {
   return (
     <div className="flex">
