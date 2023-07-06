@@ -54,7 +54,7 @@ function Reasons() {
 
 
   return (
-    <div className='flex flex-col gap-y-8 bg-black text-white mt-32'>
+    <div className='flex flex-col gap-y-8 bg-[#1a1a1a] text-white mt-32'>
         <h1 className='text-center font-bold text-5xl py-10'>Цифровий успіх з UMA</h1>
 
 
@@ -71,7 +71,7 @@ function Reasons() {
             width={200}
             height={200}
             alt="logo"
-            className="rounded-full mb-[-70px]"/>
+            className="rounded-full mb-[-70px] "/>
             <div className='xl:line-clamp-2 lg:w-3/4'>            
                 <h3 className='font-semibold text-lg'>Покращення вашої присутності онлайн</h3>
             </div>
@@ -108,8 +108,8 @@ function Reasons() {
             width={200}
             height={200}
             alt="logo"
-            className="rounded-full mb-[-70px]"/>
-            <div className='xl:line-clamp-2 lg:w-3/4'>
+            className="rounded-full mb-[-70px ]"/>
+            <div className='xl:line-clamp-2 lg:w-3/4 '>
                 <h3 className='font-semibold text-lg'>Підвищення свідомості про бренд</h3>
             </div>
             <p className='text-base text-gray-400'>Креативний контент та стратегії брендингу, що привертають увагу, збільшують свідомість про ваш бренд</p>

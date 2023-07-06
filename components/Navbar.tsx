@@ -8,7 +8,7 @@ function Navbar() {
 
   return (
     <div>
-      <nav className="w-full bg-black bg-opacity-70	backdrop-blur-sm	fixed top-0 left-0 right-0 z-10">
+      <nav className="w-full bg-[#1a1a1a] bg-opacity-70	backdrop-blur-sm	fixed top-0 left-0 right-0 z-10">
         <div className="justify-between px-6 mx-auto md:items-center md:flex">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">

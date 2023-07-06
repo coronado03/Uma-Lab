@@ -17,7 +17,7 @@ const ReasonsCarousel = ({ items }: any) => {
   };
 
   return (
-    <div className="py-28 mx-auto pb-48 md:hidden w-full">
+    <div className="py-28 mx-auto pb-48 md:hidden w-full bg-[#1a1a1a]">
       <div className="relative">
         <div className="flex overflow-hidden h-96 items-center justify-center">
           {items.map((item: any, index: number) => (
@@ -50,7 +50,7 @@ const ReasonsCarousel = ({ items }: any) => {
         <CarouselCircles count={items.length} currentItem={currentItem} />
 
         <button
-          className="absolute top-1/2 transform -translate-y-1/2 left-4 p-2 bg-black bg-opacity-50 text-white border-none cursor-pointer"
+          className="absolute top-1/2 transform -translate-y-1/2 left-4 p-2 bg-[#1a1a1a] bg-opacity-50 text-white border-none cursor-pointer"
           onClick={prevItem}
         >
           <Image
@@ -62,7 +62,7 @@ const ReasonsCarousel = ({ items }: any) => {
           />
         </button>
         <button
-          className="absolute top-1/2 transform -translate-y-1/2 right-4 p-2 bg-black bg-opacity-50 text-white border-none cursor-pointer"
+          className="absolute top-1/2 transform -translate-y-1/2 right-4 p-2 bg-[#1a1a1a] bg-opacity-50 text-white border-none cursor-pointer"
           onClick={nextItem}
         >
           <Image
