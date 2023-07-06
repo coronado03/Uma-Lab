@@ -45,7 +45,7 @@ function Offer() {
         animate={inView1 ? {opacity:1} : {opacity:0}}
         transition={{ duration: 0.5 }}
         className='flex flex-col gap-y-5'>
-            <h1 className='font-semibold text-3xl basis-11/12'>Еекспрес-аналіз Бренду</h1>
+            <h1 className='font-semibold text-3xl basis-11/12'>Експрес-аналіз Бренду</h1>
             <p className='basis-full text-base font-light text-gray-400'>Проведення швидкого дослідження вашого бренду, аналіз його позиціонування, конкурентне середовище та сприйняття цільової аудиторії, аби надати вам цінну інформацію та рекомендації для подальшого розвитку та успішної стратегії бренду.</p>
         </motion.div>
 
