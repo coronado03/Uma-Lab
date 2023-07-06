@@ -14,7 +14,7 @@ function Footer() {
 
         <div className='text-lg font-semibold flex flex-row gap-y-3 gap-x-7'>
           <div className=''>
-            <p>+38 0...</p>
+            <p>+38 096 689 66 16</p>
             <p>info@uma-lub.com</p>
           </div>
 

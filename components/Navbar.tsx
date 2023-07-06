@@ -43,6 +43,7 @@ function Navbar() {
               }`}
             >
               <ul className="h-screen md:h-auto items-center justify-center md:flex ">
+                
                 <li className="pb-2 text-base	 text-white py-2 md:px-2 text-center border-b-2 md:border-b-0  hover:bg-sky-600  border-sky-600  md:hover:text-sky-600 md:hover:bg-transparent">
                   <Link href="#offer" onClick={() => setNavbar(!navbar)}>
                   <p className=''>Послуги</p>
@@ -53,7 +54,7 @@ function Navbar() {
                  <p className='text-sky-500'>|</p>
                 </li>
 
-                <li className="pb-2 text-base text-white py-2 px-2 text-center  border-b-2 md:border-b-0  hover:bg-sky-600  border-sky-600  md:hover:text-sky-600 md:hover:bg-transparent">
+                <li className="pb-2 text-base text-white py-2 px-2 text-center border-b-2 md:border-b-0  hover:bg-sky-600  border-sky-600  md:hover:text-sky-600 md:hover:bg-transparent">
                   <Link href="#blog" onClick={() => setNavbar(!navbar)}>
                   <p className='flex flex-row'>Клієнти</p>
                   </Link>
