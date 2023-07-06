@@ -16,13 +16,13 @@ function Offer() {
 
 
 
-    const inView1 = useInView(ref1)
-    const inView2 = useInView(ref2)
-    const inView3 = useInView(ref3)
-    const inView4 = useInView(ref4)
-    const inView5 = useInView(ref5)
-    const inView6 = useInView(ref6)
-    const inView7 = useInView(ref7)
+    const inView1 = useInView(ref1, { once: true })
+    const inView2 = useInView(ref2, { once: true })
+    const inView3 = useInView(ref3, { once: true })
+    const inView4 = useInView(ref4, { once: true })
+    const inView5 = useInView(ref5, { once: true })
+    const inView6 = useInView(ref6, { once: true })
+    const inView7 = useInView(ref7, { once: true })
 
 
 
