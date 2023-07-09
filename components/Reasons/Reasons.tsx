@@ -4,7 +4,8 @@ import { useRef } from 'react';
 import ReasonsGrid from './ReasonsGrid';
 import { useInView, motion } from "framer-motion"
 import ReasonsCarousel from './ReasonsCarousel';
-
+import { Carousel } from 'react-responsive-carousel';
+import CarouselTest from './CarouselTest';
 
 function Reasons() {
     const ref = useRef(null);
@@ -14,36 +15,36 @@ function Reasons() {
 
     const items = [
   {
-    imageUrl: '/Reasons/1.png',
+    imageUrl: '/Reasons/Ресурс 1.svg',
     title: 'Покращення вашої присутності онлайн',
     paragraph: 'допомогою професійного веб-дизайну та соціальних медіа, ми покращуємо вашу онлайн-присутність і залучаємо більше клієнтів',
   },
   {
-    imageUrl: '/Reasons/6.png',
+    imageUrl: '/Reasons/Ресурс 6.svg',
     title: 'Адміністрування сайту та соціальних мереж',
     paragraph: 'За допомогою професійного веб-дизайну та соціальних медіа, ми покращуємо вашу онлайн-присутність і залучаємо більше клієнтів'
   },
 
   {
-    imageUrl: '/Reasons/3.png',
+    imageUrl: '/Reasons/Ресурс 3.svg',
     title: 'Підвищення свідомості про бренд',
     paragraph: 'Креативний контент та стратегії брендингу, що привертають увагу, збільшують свідомість про ваш бренд'
   },
 
   {
-    imageUrl: '/Reasons/2.png',
+    imageUrl: '/Reasons/Ресурс 2.svg',
     title: 'Цільовий трафік',
     paragraph: 'Розробка стратегії пошукової оптимізації та інших маркетингових каналів для приваблення цільового трафіку'
   },
 
   {
-    imageUrl: '/Reasons/5.png',
+    imageUrl: '/Reasons/Ресурс 5.svg',
     title: 'Ефективна реклама',
     paragraph: 'Таргетована реклама для досягнення максимальних результатів'
   },
 
   {
-    imageUrl: '/Reasons/4.png',
+    imageUrl: '/Reasons/Ресурс 4.svg',
     title: 'Збільшення конверсії',
     paragraph: 'Оптимізація сайту та маркетингових стратегій, що підвищують конверсію веб-трафіку та залучають нових клієнтів'
   },
@@ -57,21 +58,20 @@ function Reasons() {
     <div className='flex flex-col gap-y-8 bg-[#1a1a1a] text-white mt-32'>
         <h1 className='text-center font-bold text-5xl py-10'>Цифровий успіх з UMA</h1>
 
-
-        <ReasonsCarousel items={items} />
+        <CarouselTest/>
         <ReasonsGrid>        
-        
+
         <motion.div 
         initial={{opacity:0}}
         animate={inView ? {opacity:1} : {opacity:0}}
         transition={{ duration: 2 }}
         className='flex flex-col gap-y-2 items-center text-center'>
             <Image
-            src="/Reasons/1.png"
-            width={200}
+            src="/Reasons/Ресурс 1.svg"
+            width={70}
             height={200}
             alt="logo"
-            className="rounded-full mb-[-70px] "/>
+            className="py-2"/>
             <div className='xl:line-clamp-2 lg:w-3/4'>            
                 <h3 className='font-semibold text-lg'>Покращення вашої присутності онлайн</h3>
             </div>
@@ -86,11 +86,11 @@ function Reasons() {
         transition={{ duration: 2 }} 
         className='flex flex-col gap-y-2 items-center text-center'>
             <Image
-            src="/Reasons/6.png"
-            width={200}
+            src="/Reasons/Ресурс 6.svg"
+            width={70}
             height={200}
             alt="logo"
-            className="rounded-full  mb-[-70px]"/>
+            className=""/>
             <div className='xl:line-clamp-2 lg:w-3/4'>
                 <h3 className='font-semibold text-lg'>Адміністрування сайту та соціальних мереж</h3>
             </div>
@@ -104,11 +104,11 @@ function Reasons() {
         transition={{ duration: 2 }}
         className='flex flex-col gap-y-2 items-center text-center'>
             <Image
-            src="/Reasons/3.png"
-            width={200}
+            src="/Reasons/Ресурс 3.svg"
+            width={70}
             height={200}
             alt="logo"
-            className="rounded-full mb-[-70px ]"/>
+            className=""/>
             <div className='xl:line-clamp-2 lg:w-3/4 '>
                 <h3 className='font-semibold text-lg'>Підвищення свідомості про бренд</h3>
             </div>
@@ -121,11 +121,11 @@ function Reasons() {
         transition={{ duration: 2 }}
         className='flex flex-col gap-y-2 items-center text-center'>
             <Image
-            src="/Reasons/2.png"
-            width={200}
+            src="/Reasons/Ресурс 2.svg"
+            width={70}
             height={200}
             alt="logo"
-            className="rounded-full mb-[-70px]"/>
+            className=""/>
             <h3 className='font-semibold text-lg'>Цільовий трафік</h3>
             <p ref={ref2} className='text-base text-gray-400'>Розробка стратегії пошукової оптимізації та інших маркетингових каналів для приваблення цільового трафіку</p>
         </motion.div>
@@ -136,11 +136,11 @@ function Reasons() {
         transition={{ duration: 2 }}
         className='flex flex-col gap-y-2 items-center text-center'>
             <Image
-            src="/Reasons/5.png"
-            width={200}
+            src="/Reasons/Ресурс 5.svg"
+            width={70}
             height={200}
             alt="logo"
-            className="rounded-full mb-[-70px]"/>
+            className=""/>
             <h3 className='font-semibold text-lg'>Ефективна реклама</h3>
             <p className='text-base text-gray-400'>Таргетована реклама для досягнення максимальних результатів</p>
         </motion.div>
@@ -151,11 +151,11 @@ function Reasons() {
         transition={{ duration: 2 }} 
         className='flex flex-col gap-y-2 items-center text-center'>
             <Image
-            src="/Reasons/4.png"
-            width={200}
+            src="/Reasons/Ресурс 4.svg"
+            width={70}
             height={200}
             alt="logo"
-            className="rounded-full mb-[-70px]"/>
+            className=""/>
             <h3 className='font-semibold text-lg'>Збільшення конверсії</h3>
             <p className='text-base text-gray-400'>Оптимізація сайту та маркетингових стратегій, що підвищують конверсію веб-трафіку та залучають нових клієнтів</p>
         </motion.div>

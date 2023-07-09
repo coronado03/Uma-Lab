@@ -1,7 +1,7 @@
 
 const CarouselCircles = ({ count, currentItem }:any) => {
     return (
-      <div className="flex justify-center mt-12 relative bottom-[-70px]">
+      <div className="flex justify-center mt-12 relative bottom-[-1px]">
         {Array.from({ length: count }).map((_, index) => (
           <div
             key={index}
