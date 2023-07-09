@@ -6,7 +6,7 @@ function Hero() {
   
   
   return (
-    <div className="bg-[#1a1a1a] justify-center items-center flex flex-col mt-44 md:mt-16 pb-52 md:gap-y-20">
+    <div className="text-white bg-[#1a1a1a] justify-center items-center flex flex-col mt-44 md:mt-16 pb-52 md:gap-y-20">
       <div className="flex flex-col gap-y-5 text-center mt-9 md:mt-36">
         <Image src="/umalogo.png" className="mx-auto" width={165} height={500} alt="logo" />
         <h1 className="text-4xl md:text-8xl font-bold">UMA - LAB</h1>
