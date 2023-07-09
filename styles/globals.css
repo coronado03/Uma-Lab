@@ -18,6 +18,10 @@
 }
 
 body {
+  background-color: #1a1a1a;
+  }
+
+body {
   font-family: 'Avenir Next', sans-serif;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(

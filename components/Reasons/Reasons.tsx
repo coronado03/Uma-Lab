@@ -71,7 +71,7 @@ function Reasons() {
             width={70}
             height={200}
             alt="logo"
-            className="py-2"/>
+            className="py-2 mt-[-26px]"/>
             <div className='xl:line-clamp-2 lg:w-3/4'>            
                 <h3 className='font-semibold text-lg'>Покращення вашої присутності онлайн</h3>
             </div>
@@ -137,10 +137,10 @@ function Reasons() {
         className='flex flex-col gap-y-2 items-center text-center'>
             <Image
             src="/Reasons/Ресурс 5.svg"
-            width={70}
+            width={45}
             height={200}
             alt="logo"
-            className=""/>
+            className="mt-[-10px]"/>
             <h3 className='font-semibold text-lg'>Ефективна реклама</h3>
             <p className='text-base text-gray-400'>Таргетована реклама для досягнення максимальних результатів</p>
         </motion.div>
