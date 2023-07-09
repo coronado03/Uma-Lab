@@ -4,8 +4,8 @@ import Link from 'next/link';
 
 function Footer() {
   return (
-    <div className='w-full border-t'>
-          <div className='flex bg-black justify-center flex-col lg:flex-row lg:gap-x-48 mx-auto text-white w-11/12 z-2 mb-10 pt-5' id="footer"> 
+    <div className='w-full border-t bg-[#1a1a1a]'>
+          <div className='flex bg-[#1a1a1a] justify-center flex-col lg:flex-row lg:gap-x-48 mx-auto text-white w-11/12 z-2 mb-10 pt-5' id="footer"> 
       <div className='lg:w-1/2'>
         <h1 className="sm:text-4xl text-3xl md:text-6xl font-semibold text-center lg:text-start self-center text-black text-stroke text-stroke lg:ml-5">наші контакти</h1>
       </div>
@@ -14,7 +14,7 @@ function Footer() {
 
         <div className='text-lg font-semibold flex flex-row gap-y-3 gap-x-7'>
           <div className=''>
-            <p>+38 0...</p>
+            <p>+38 096 689 66 16</p>
             <p>info@uma-lub.com</p>
           </div>
 

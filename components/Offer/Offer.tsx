@@ -16,18 +16,18 @@ function Offer() {
 
 
 
-    const inView1 = useInView(ref1)
-    const inView2 = useInView(ref2)
-    const inView3 = useInView(ref3)
-    const inView4 = useInView(ref4)
-    const inView5 = useInView(ref5)
-    const inView6 = useInView(ref6)
-    const inView7 = useInView(ref7)
+    const inView1 = useInView(ref1, { once: true })
+    const inView2 = useInView(ref2, { once: true })
+    const inView3 = useInView(ref3, { once: true })
+    const inView4 = useInView(ref4, { once: true })
+    const inView5 = useInView(ref5, { once: true })
+    const inView6 = useInView(ref6, { once: true })
+    const inView7 = useInView(ref7, { once: true })
 
 
 
   return (
-    <div className='flex flex-col lg:flex-row lg:gap-x-4 bg-black text-white px-4 md:px-10 lg:px-20' id="offer">
+    <div className='flex flex-col lg:flex-row lg:gap-x-4 bg-[#1a1a1a] text-white px-4 md:px-10 lg:px-20' id="offer">
         
         <div className='lg:w-1/2 relative mb-12 text-center lg:mb-0 lg:text-start '>
             <div className='lg:sticky top-16 lg:mt-[-50px]'>
@@ -45,7 +45,7 @@ function Offer() {
         animate={inView1 ? {opacity:1} : {opacity:0}}
         transition={{ duration: 0.5 }}
         className='flex flex-col gap-y-5'>
-            <h1 className='font-semibold text-3xl basis-11/12'>Еекспрес-аналіз Бренду</h1>
+            <h1 className='font-semibold text-3xl basis-11/12'>Експрес-аналіз Бренду</h1>
             <p className='basis-full text-base font-light text-gray-400'>Проведення швидкого дослідження вашого бренду, аналіз його позиціонування, конкурентне середовище та сприйняття цільової аудиторії, аби надати вам цінну інформацію та рекомендації для подальшого розвитку та успішної стратегії бренду.</p>
         </motion.div>
 

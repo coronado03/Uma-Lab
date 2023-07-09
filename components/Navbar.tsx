@@ -8,7 +8,7 @@ function Navbar() {
 
   return (
     <div>
-      <nav className="w-full bg-black bg-opacity-70	backdrop-blur-sm	fixed top-0 left-0 right-0 z-10">
+      <nav className="w-full bg-[#1a1a1a] bg-opacity-70	backdrop-blur-sm	fixed top-0 left-0 right-0 z-10">
         <div className="justify-between px-6 mx-auto md:items-center md:flex">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -43,6 +43,7 @@ function Navbar() {
               }`}
             >
               <ul className="h-screen md:h-auto items-center justify-center md:flex ">
+                
                 <li className="pb-2 text-base	 text-white py-2 md:px-2 text-center border-b-2 md:border-b-0  hover:bg-sky-600  border-sky-600  md:hover:text-sky-600 md:hover:bg-transparent">
                   <Link href="#offer" onClick={() => setNavbar(!navbar)}>
                   <p className=''>Послуги</p>
@@ -53,7 +54,7 @@ function Navbar() {
                  <p className='text-sky-500'>|</p>
                 </li>
 
-                <li className="pb-2 text-base text-white py-2 px-2 text-center  border-b-2 md:border-b-0  hover:bg-sky-600  border-sky-600  md:hover:text-sky-600 md:hover:bg-transparent">
+                <li className="pb-2 text-base text-white py-2 px-2 text-center border-b-2 md:border-b-0  hover:bg-sky-600  border-sky-600  md:hover:text-sky-600 md:hover:bg-transparent">
                   <Link href="#blog" onClick={() => setNavbar(!navbar)}>
                   <p className='flex flex-row'>Клієнти</p>
                   </Link>
