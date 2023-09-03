@@ -9,6 +9,8 @@ import ChatBubble from '@/components/ChatBubble/ChatBubble'
 import FirstAbout from '@/components/AboutUs/FirstAbout'
 import SecondAbout from '@/components/AboutUs/SecondAbout'
 import ThirdAbout from '@/components/AboutUs/ThirdAbout'
+import FourthAbout from '@/components/AboutUs/FourthAbout'
+import FifthAbout from '@/components/AboutUs/FifthAbout'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -18,6 +20,8 @@ export default function Home() {
     <FirstAbout />
     <SecondAbout />
     <ThirdAbout />
+    <FourthAbout />
+    <FifthAbout />
     </>
   )
 }
