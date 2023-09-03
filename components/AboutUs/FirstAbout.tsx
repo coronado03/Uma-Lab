@@ -31,7 +31,7 @@ function FirstAbout() {
         >
           <SwiperSlide>
             <div className="flex flex-row">
-              <p className="font-bold text-2xl md:text-3xl">01&nbsp;</p>
+              <p className="font-bold text-2xl md:text-3xl">{'01&nbsp;'}</p>
               <p className="font-bold text-2xl opacity-50 md:text-3xl">/ 03</p>
             </div>
             <h1 className="mt-6 font-bold text-2xl md:text-3xl">Дизайн та розробка</h1>
@@ -45,7 +45,7 @@ function FirstAbout() {
 
           <SwiperSlide>
             <div className="flex flex-row">
-              <p className="font-bold text-2xl">02&nbsp;</p>
+              <p className="font-bold text-2xl">{'02&nbsp;'}</p>
               <p className="font-bold text-2xl opacity-50">/ 03</p>
             </div>
             <h1 className="mt-6 font-bold text-2xl">Інтернет-маркетинг</h1>
@@ -60,7 +60,7 @@ function FirstAbout() {
 
           <SwiperSlide>
             <div className="flex flex-row">
-              <p className="font-bold text-2xl">03&nbsp;</p>
+              <p className="font-bold text-2xl">{'03&nbsp;'}</p>
               <p className="font-bold text-2xl opacity-50">/ 03</p>
             </div>
             <h1 className="mt-6 font-bold text-2xl">Менеджмент та підтримка</h1>
